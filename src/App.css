@@ -1,0 +1,122 @@
+/* App.css */
+
+/* Styles for the entire calculator container */
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Input field styles */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Result display styles */
+.result {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* History container styles */
+.history {
+  margin-top: 20px;
+}
+
+/* History title styles */
+.history h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* History list styles */
+.history ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Individual history item styles */
+.history li {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+/* Styles for expression and result in history items */
+.expression,
+.result {
+  flex: 1;
+}
+
+/* Button styles (if needed) */
+button {
+  background-color: #007bff;
+  color: #ffffffb2;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* CalculatorHistory.css */
+
+.history {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.history h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.history ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.history li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.history li .expression {
+  font-weight: bold;
+  color: #007bff; /* Blue color for expressions */
+}
+
+.history li .result {
+  color: #28a745; /* Green color for results */
+}
+
+.history li:hover {
+  background-color: #f5f5f5;
+}
